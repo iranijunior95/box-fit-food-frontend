@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    background: var(--color-surface-primary);
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid var(--color-stroke-default);
+    position: fixed;
+    z-index: 9;
+}
+
+header > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+    header {
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    header {
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    header {
+        padding: 1rem 1.5rem;
+    }
+}
