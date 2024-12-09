@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import ImgHome from '../../assets/img/home-03-stroke-rounded.svg';
 import ImgProdutos from '../../assets/img/vegetarian-food-stroke-rounded.svg';
 import ImgClientes from '../../assets/img/user-multiple-stroke-rounded.svg';
@@ -16,17 +17,17 @@ function Menu(props) {
 
                 <ul>
                     <li>
-                        <a href="#">
+                        <NavLink to="/home" end>
                             <img src={ImgHome} alt="img home" />
                             Início
-                        </a>
+                        </NavLink>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <NavLink to="/produtos" end>
                             <img src={ImgProdutos} alt="img produtos" />
                             Produtos
-                        </a>
+                        </NavLink>
                     </li>
 
                     <li>

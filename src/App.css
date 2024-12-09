@@ -1,0 +1,28 @@
+main {
+    min-height: 100dvh;
+    padding-top: 124px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    main {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    main {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    main {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}

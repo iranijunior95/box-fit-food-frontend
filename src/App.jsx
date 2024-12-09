@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import './App.css'
@@ -20,8 +21,10 @@ function App() {
       <Menu
         isOpenMenu={isOpenMenu} 
       />
-
-  test
+    
+    <main>
+      <Outlet />
+    </main>
     </>
   )
 }
