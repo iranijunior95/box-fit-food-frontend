@@ -1,0 +1,17 @@
+.divTitulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.divTitulo > h1 {
+    font-size: 1.5rem;
+}
+
+.divTitulo > span {
+    color: var(--color-text-secondary);
+    text-align: justify;
+    font-size: 1rem;
+}

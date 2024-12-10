@@ -11,6 +11,7 @@
     --color-surface-secondary: #FEE7D6;
     --color-surface-disabled: #E7E5E4;
     --color-stroke-default: #D6D3D1;
+    --color-blue: #8557e7;
 }
 
 * {
@@ -19,18 +20,4 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     color: var(--color-text-primary);
-}
-
-.btnDefault {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    text-align: center;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    background: transparent;
 }

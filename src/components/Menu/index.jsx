@@ -31,24 +31,24 @@ function Menu(props) {
                     </li>
 
                     <li>
-                        <a href="#">
+                        <NavLink to="/clientes" end>
                             <img src={ImgClientes} alt="img clientes" />
                             Clientes
-                        </a>
+                        </NavLink>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <NavLink to="/vendas" end>
                             <img src={ImgVendas} alt="img vendas" />
                             Vendas
-                        </a>
+                        </NavLink>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <NavLink to="/relatorios" end>  
                             <img src={ImgRelatorio} alt="img relatorios" />
                             Relatórios
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
 
