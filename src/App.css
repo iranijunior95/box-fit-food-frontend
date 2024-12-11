@@ -24,6 +24,7 @@ section {
     align-items: center;
     gap: 0.5rem;
     background: transparent;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 990px) {

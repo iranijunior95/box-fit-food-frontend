@@ -1,0 +1,20 @@
+.conteudoInputBusca {
+    width: 100%;
+    background-color: var(--color-surface-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0px 16px;
+    border: 1px solid var(--color-stroke-default);
+    border-radius: 0.5rem;
+}
+
+.conteudoInputBusca > input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 12px 0px;
+}
